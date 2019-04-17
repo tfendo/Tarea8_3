@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Notification Scheduler</string>
+    <string name="descripcion_canal">Notificaciones de Job Service</string>
+</resources>
