@@ -24,8 +24,8 @@ public class NotificationJobService extends JobService {
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder
                 (this, PRIMARY_CHANNEL_ID)
-                .setContentTitle("Job Service")
-                .setContentText("Your Job is running")
+                .setContentTitle(this.getString(R.string.job_titulo))
+                .setContentText(this.getString(R.string.job_texto))
                 .setContentIntent(pendingIntent)
                 .setSmallIcon(R.drawable.ic_job_running)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)

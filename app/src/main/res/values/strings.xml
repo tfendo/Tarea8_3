@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">Notification Scheduler</string>
     <string name="descripcion_canal">Notificaciones de Job Service</string>
+    <string name="job_titulo">Job Service</string>
+    <string name="job_texto">Your Job is running</string>
+    <string name="etiqueta">NetWork Type Required!</string>
+    <string name="radio_none">None</string>
+    <string name="radio_any">Any</string>
+    <string name="radio_wifi">Wifi</string>
+    <string name="boton_aceptar">Schedule Job</string>
+    <string name="boton_cancel">Cancel Jobs</string>
+    <string name="job_programado">Job Scheduled, job will run when the constraints are met</string>
+    <string name="job_no_programado">Please, set at least one cosntraint</string>
+    <string name="etiqueta2">Requires:</string>
+    <string name="idleSwitch">Device Idle</string>
+    <string name="chargingSwitch">Device Charging</string>
+    <string name="etiqueta3">Override Deadline:</string>
+    <string name="etiqueta4">Not Set</string>
 </resources>
